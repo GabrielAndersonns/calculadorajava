@@ -34,4 +34,19 @@ public class Funcoes {
         n2 = scanner.nextInt();
         System.out.println("A multiplicacão dos numeros é:" + (n1 * n2));
     }
+
+    public static void divisao () {
+        float n1;
+        float n2;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Dividendo:");
+        n1 = scanner.nextInt();
+
+        System.out.println("Divisor: ");
+        n2 = scanner.nextInt();
+        System.out.println(n1+" dividido por "+n2+ " é: " + (n1 / n2));
+
+    }
 }
+
+//Bora otimizar essas funções ein?
